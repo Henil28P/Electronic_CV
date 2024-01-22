@@ -19,3 +19,40 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
 }
+.skill_per {
+    background: transparent;
+    color: green;
+    transform: translateX(101%);
+}
+
+
+.skills .box {
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .box h4 {
+    text-transform: uppercase;
+    color: rgb(39, 39, 39);
+    font-weight: 500;
+}
+
+.skills .box .percent {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    background: grey;
+}
+
+.skills .box .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: lightgreen;
+}
+
