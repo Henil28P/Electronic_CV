@@ -69,6 +69,19 @@ body {
 } */
 
 
+.left_side {
+    position: relative;
+    background-color: rgb(2, 145, 2); /* or TEAL OR #003147*/
+    padding: 40px;
+}
+
+.right_side {
+    position: relative;
+    background-color: #66d9ff;
+    padding: 40px;
+}
+
+
 .skills .box {
     position: relative;
     width: 100%;
