@@ -68,6 +68,20 @@ body {
     align-items: center;
 } */
 
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px; /* 1200 */
+    min-height: 1000px;
+    background-color: teal; /* white - #fff */
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /* box-shadow: 0 50px 90px rgba(0,0,0,0.1); */
+    box-shadow: 0 0 12px 4px;
+    border-radius: 5px;
+    border: 2px solid rgb(73, 73, 73);
+}
 
 .left_side {
     position: relative;
@@ -78,6 +92,13 @@ body {
 .right_side {
     position: relative;
     background-color: #66d9ff;
+    padding: 40px;
+}
+
+
+.container .right_side {
+    position: relative;
+    background: #fff;
     padding: 40px;
 }
 
