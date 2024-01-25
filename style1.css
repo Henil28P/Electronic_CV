@@ -137,6 +137,37 @@ body {
     color: yellow;
 }
 
+.contactinfo {
+    padding-top: 40px;
+    /* text-align: center; */
+}
+
+
+.contactinfo ol {
+    position: relative;
+}
+
+.contactinfo ul li {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.contactinfo ul li .icon {
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: lightblue;
+}
+
+.contactinfo ul li span {
+    color: white;
+    font-weight: 300;
+    /* cursor: pointer; */
+}
+
 
 .container .right_side {
     position: relative;
