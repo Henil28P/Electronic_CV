@@ -168,6 +168,11 @@ body {
     /* cursor: pointer; */
 }
 
+.contactinfo ul li span:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    color: yellow;
+}
 
 .contactinfo.edu li {
     margin-bottom: 15px;
