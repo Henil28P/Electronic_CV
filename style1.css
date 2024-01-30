@@ -205,6 +205,22 @@ body {
     font-weight: 500;
 }
 
+.contactinfo.lang .percent {
+    position: relative;
+    width: 90%;
+    height: 6px;
+    background-color: black;
+    display: block;
+    margin-top: 5px;
+}
+
+.contactinfo.lang .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(255, 230, 0);
+}
 
 .container .right_side {
     position: relative;
