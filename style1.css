@@ -206,6 +206,11 @@ body {
     font-size: 16px;
 }
 
+#school:hover, #prim_school:hover {
+    text-decoration: underline;
+    color: yellow;
+    transform: scale(1.1);
+}
 
 .contactinfo.edu h4:nth-child(2) {
     color: white;
