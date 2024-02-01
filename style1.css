@@ -259,6 +259,18 @@ p {
     color: #333;
 }
 
+.about .box {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+
+
+.about .box .text h4 {
+    text-transform: uppercase;
+    color: rgb(255, 123, 0);
+    font-size: 16px;
+}
 
 .skills .box {
     position: relative;
