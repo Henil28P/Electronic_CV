@@ -265,6 +265,17 @@ p {
     margin: 20px 0;
 }
 
+.about .box .year_company {
+    min-width: 240px;
+}
+
+.about .box .year_company h5 {
+    text-transform: uppercase;
+    color: black;
+    font-weight: 550;
+    font-size: 15px;
+}
+
 
 .about .box .text h4 {
     text-transform: uppercase;
