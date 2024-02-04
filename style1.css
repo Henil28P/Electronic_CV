@@ -276,6 +276,11 @@ p {
     font-size: 15px;
 }
 
+#years1, #years2 {
+    color: blue;
+    /* font-style: italic; */
+    font-size: 17px;
+}
 
 .about .box .text h4 {
     text-transform: uppercase;
