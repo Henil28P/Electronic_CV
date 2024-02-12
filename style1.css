@@ -454,6 +454,14 @@ margin: 8px 10px 12px;
     font-style: none;
 }
 
+#print:hover, #download:hover, #contact:hover {
+    cursor: pointer;
+    background-color: rgb(54,54,54);
+    color: white;
+    border-radius: 6px;
+    border: 1.5px outset black;
+}
+
 /* .stuff ul {
     display: flex;
     justify-content: space-between;
